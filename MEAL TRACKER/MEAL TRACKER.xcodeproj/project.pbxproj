@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		3FB08D8C2E5C875A00438550 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FB08D6D2E5C875900438550 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FB08D742E5C875900438550;
+			remoteInfo = "MEAL TRACKER";
+		};
+		3FB08D962E5C875A00438550 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FB08D6D2E5C875900438550 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FB08D742E5C875900438550;
+			remoteInfo = "MEAL TRACKER";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FB08D752E5C875900438550 /* MEAL TRACKER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MEAL TRACKER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB08D8B2E5C875A00438550 /* MEAL TRACKERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MEAL TRACKERTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB08D952E5C875A00438550 /* MEAL TRACKERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MEAL TRACKERUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3FB08D9D2E5C875A00438550 /* Exceptions for "MEAL TRACKER" folder in "MEAL TRACKER" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3FB08D742E5C875900438550 /* MEAL TRACKER */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3FB08D772E5C875900438550 /* MEAL TRACKER */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3FB08D9D2E5C875A00438550 /* Exceptions for "MEAL TRACKER" folder in "MEAL TRACKER" target */,
+			);
+			path = "MEAL TRACKER";
+			sourceTree = "<group>";
+		};
+		3FB08D8E2E5C875A00438550 /* MEAL TRACKERTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MEAL TRACKERTests";
+			sourceTree = "<group>";
+		};
+		3FB08D982E5C875A00438550 /* MEAL TRACKERUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MEAL TRACKERUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FB08D722E5C875900438550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB08D882E5C875A00438550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB08D922E5C875A00438550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FB08D6C2E5C875900438550 = {
+			isa = PBXGroup;
+			children = (
+				3FB08D772E5C875900438550 /* MEAL TRACKER */,
+				3FB08D8E2E5C875A00438550 /* MEAL TRACKERTests */,
+				3FB08D982E5C875A00438550 /* MEAL TRACKERUITests */,
+				3FB08D762E5C875900438550 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FB08D762E5C875900438550 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FB08D752E5C875900438550 /* MEAL TRACKER.app */,
+				3FB08D8B2E5C875A00438550 /* MEAL TRACKERTests.xctest */,
+				3FB08D952E5C875A00438550 /* MEAL TRACKERUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FB08D742E5C875900438550 /* MEAL TRACKER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB08D9E2E5C875A00438550 /* Build configuration list for PBXNativeTarget "MEAL TRACKER" */;
+			buildPhases = (
+				3FB08D712E5C875900438550 /* Sources */,
+				3FB08D722E5C875900438550 /* Frameworks */,
+				3FB08D732E5C875900438550 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3FB08D772E5C875900438550 /* MEAL TRACKER */,
+			);
+			name = "MEAL TRACKER";
+			packageProductDependencies = (
+			);
+			productName = "MEAL TRACKER";
+			productReference = 3FB08D752E5C875900438550 /* MEAL TRACKER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FB08D8A2E5C875A00438550 /* MEAL TRACKERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB08DA32E5C875A00438550 /* Build configuration list for PBXNativeTarget "MEAL TRACKERTests" */;
+			buildPhases = (
+				3FB08D872E5C875A00438550 /* Sources */,
+				3FB08D882E5C875A00438550 /* Frameworks */,
+				3FB08D892E5C875A00438550 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FB08D8D2E5C875A00438550 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3FB08D8E2E5C875A00438550 /* MEAL TRACKERTests */,
+			);
+			name = "MEAL TRACKERTests";
+			packageProductDependencies = (
+			);
+			productName = "MEAL TRACKERTests";
+			productReference = 3FB08D8B2E5C875A00438550 /* MEAL TRACKERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FB08D942E5C875A00438550 /* MEAL TRACKERUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB08DA62E5C875A00438550 /* Build configuration list for PBXNativeTarget "MEAL TRACKERUITests" */;
+			buildPhases = (
+				3FB08D912E5C875A00438550 /* Sources */,
+				3FB08D922E5C875A00438550 /* Frameworks */,
+				3FB08D932E5C875A00438550 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FB08D972E5C875A00438550 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3FB08D982E5C875A00438550 /* MEAL TRACKERUITests */,
+			);
+			name = "MEAL TRACKERUITests";
+			packageProductDependencies = (
+			);
+			productName = "MEAL TRACKERUITests";
+			productReference = 3FB08D952E5C875A00438550 /* MEAL TRACKERUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FB08D6D2E5C875900438550 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					3FB08D742E5C875900438550 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					3FB08D8A2E5C875A00438550 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 3FB08D742E5C875900438550;
+					};
+					3FB08D942E5C875A00438550 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 3FB08D742E5C875900438550;
+					};
+				};
+			};
+			buildConfigurationList = 3FB08D702E5C875900438550 /* Build configuration list for PBXProject "MEAL TRACKER" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FB08D6C2E5C875900438550;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3FB08D762E5C875900438550 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FB08D742E5C875900438550 /* MEAL TRACKER */,
+				3FB08D8A2E5C875A00438550 /* MEAL TRACKERTests */,
+				3FB08D942E5C875A00438550 /* MEAL TRACKERUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FB08D732E5C875900438550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB08D892E5C875A00438550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB08D932E5C875A00438550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FB08D712E5C875900438550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB08D872E5C875A00438550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB08D912E5C875A00438550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FB08D8D2E5C875A00438550 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FB08D742E5C875900438550 /* MEAL TRACKER */;
+			targetProxy = 3FB08D8C2E5C875A00438550 /* PBXContainerItemProxy */;
+		};
+		3FB08D972E5C875A00438550 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FB08D742E5C875900438550 /* MEAL TRACKER */;
+			targetProxy = 3FB08D962E5C875A00438550 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3FB08D9F2E5C875A00438550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MEAL TRACKER/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "abc.MEAL-TRACKER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FB08DA02E5C875A00438550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MEAL TRACKER/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "abc.MEAL-TRACKER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FB08DA12E5C875A00438550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FB08DA22E5C875A00438550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FB08DA42E5C875A00438550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "abc.MEAL-TRACKERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MEAL TRACKER.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MEAL TRACKER";
+			};
+			name = Debug;
+		};
+		3FB08DA52E5C875A00438550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "abc.MEAL-TRACKERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MEAL TRACKER.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MEAL TRACKER";
+			};
+			name = Release;
+		};
+		3FB08DA72E5C875A00438550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "abc.MEAL-TRACKERUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MEAL TRACKER";
+			};
+			name = Debug;
+		};
+		3FB08DA82E5C875A00438550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "abc.MEAL-TRACKERUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MEAL TRACKER";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FB08D702E5C875900438550 /* Build configuration list for PBXProject "MEAL TRACKER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB08DA12E5C875A00438550 /* Debug */,
+				3FB08DA22E5C875A00438550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB08D9E2E5C875A00438550 /* Build configuration list for PBXNativeTarget "MEAL TRACKER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB08D9F2E5C875A00438550 /* Debug */,
+				3FB08DA02E5C875A00438550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB08DA32E5C875A00438550 /* Build configuration list for PBXNativeTarget "MEAL TRACKERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB08DA42E5C875A00438550 /* Debug */,
+				3FB08DA52E5C875A00438550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB08DA62E5C875A00438550 /* Build configuration list for PBXNativeTarget "MEAL TRACKERUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB08DA72E5C875A00438550 /* Debug */,
+				3FB08DA82E5C875A00438550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FB08D6D2E5C875900438550 /* Project object */;
+}
